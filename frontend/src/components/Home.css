@@ -1,0 +1,56 @@
+/* Apply background image to the body */
+body {
+  background-image: url('c:\Users\DHANUSH KUMAR\Downloads\13294928_5184015.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for home-container */
+.home-container {
+  padding: 20px;
+  /*background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a white background with opacity for readability */
+  border-radius: 10px; /* Optional: Rounded corners */
+  margin: 20px;
+  max-width: 800px; /* Optional: Constrain the max width */
+  text-align: left; /* Align text to the left */
+}
+
+/* Title styling */
+.home-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+ color:green;
+}
+
+/* Content container */
+.home-content {
+  margin: 0 auto;
+  color:antiquewhite;
+}
+
+/* Component styling */
+.component {
+  margin-bottom: 20px;
+  color:antiquewhite;
+}
+.components {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color:antiquewhite;
+}
+
+/* Component heading */
+.component h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Component paragraph */
+.component p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}

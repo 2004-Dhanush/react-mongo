@@ -1,0 +1,35 @@
+/* Navbar.css */
+
+/* Container */
+.navbar {
+    background-color: #343a40; /* Dark background color */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Navbar */
+  .navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar nav ul li {
+    display: inline;
+  }
+  
+  .navbar nav ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .navbar nav ul li a:hover {
+    background-color: #495057; /* Slightly lighter dark background */
+    color: rgb(22, 204, 22);
+    border-radius: 5px;
+  }
+  

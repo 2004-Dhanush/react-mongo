@@ -1,0 +1,67 @@
+/* Blog.css */
+
+/* Container */
+.container {
+    margin-top: 20px;
+  }
+  
+  /* Form Card */
+  .form-card {
+    background-color: rgb(212, 207, 207); /* Rose color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    border: 2px solid black; /* Darker rose border */
+  }
+  
+  /* Form Label */
+  .form-card .form-label {
+    color: #333333; /* Dark text color for readability */
+  }
+  
+  /* Form Control */
+  .form-card .form-control {
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .btn-green {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+    margin-right: 5px; /* Add margin between buttons */
+  }
+  
+  .btn-green:last-child {
+    margin-right: 0; /* Remove margin from the last button */
+  }
+  
+  .btn-green:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Table */
+  .table {
+    margin-top: 20px;
+  }
+  
+  .table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+  }
+  
+  .table tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #454d55;
+  }
+  
+  .table tbody td {
+    vertical-align: middle;
+  }
+  
